@@ -1,0 +1,14 @@
+:root{ --bg:#f6f6f9; --card:#fff; --accent:#2b6cb0 }
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial;margin:0;padding:16px;background:var(--bg);color:#111}
+.container{max-width:720px;margin:24px auto;padding:16px;background:var(--card);border-radius:12px;box-shadow:0 6px 20px rgba(36,36,36,0.06)}
+h1{margin-top:0}
+.todo-form{display:flex;gap:8px;margin-bottom:12px}
+.todo-form input{flex:1;padding:8px;border:1px solid #ddd;border-radius:8px}
+.todo-form button{padding:8px 12px;border-radius:8px;border:none;background:var(--accent);color:#fff}
+.filters{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.filters button{margin-right:6px}
+.todo-list{list-style:none;padding:0;margin:0}
+.todo-item{display:flex;justify-content:space-between;align-items:center;padding:8px;border-radius:8px;border:1px solid #eee;margin-bottom:8px}
+.todo-item.completed span{text-decoration:line-through;opacity:0.7}
+.empty{color:#666}
